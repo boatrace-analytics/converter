@@ -1,0 +1,31 @@
+{
+    "name": "boatrace-analytics/converter",
+    "description": "The Boatrace Analytics Converter.",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "shimomo",
+            "email": "developer@shimomo.net"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "boatrace-analytics/trimmer": "^1.0",
+        "nesbot/carbon": "^2.0",
+        "php-di/php-di": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Boatrace\\Analytics\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Boatrace\\Analytics\\Tests\\": "tests/"
+        }
+    }
+}
